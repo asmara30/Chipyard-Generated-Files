@@ -1,0 +1,128 @@
+[
+  {
+    "module_name": "cc_dir_ext",
+    "depth": 1024,
+    "width": 136,
+    "masked": true,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "mask_granularity": 17,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.subsystem_l2_wrapper.l2.mods_0.directory.cc_dir.cc_dir_ext"
+    ]
+  },
+  {
+    "module_name": "cc_banks_0_ext",
+    "depth": 8192,
+    "width": 64,
+    "masked": false,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.subsystem_l2_wrapper.l2.mods_0.bankedStore.cc_banks_7.cc_banks_0_ext",
+      "ChipTop.system.subsystem_l2_wrapper.l2.mods_0.bankedStore.cc_banks_6.cc_banks_0_ext",
+      "ChipTop.system.subsystem_l2_wrapper.l2.mods_0.bankedStore.cc_banks_5.cc_banks_0_ext",
+      "ChipTop.system.subsystem_l2_wrapper.l2.mods_0.bankedStore.cc_banks_4.cc_banks_0_ext",
+      "ChipTop.system.subsystem_l2_wrapper.l2.mods_0.bankedStore.cc_banks_3.cc_banks_0_ext",
+      "ChipTop.system.subsystem_l2_wrapper.l2.mods_0.bankedStore.cc_banks_2.cc_banks_0_ext",
+      "ChipTop.system.subsystem_l2_wrapper.l2.mods_0.bankedStore.cc_banks_1.cc_banks_0_ext",
+      "ChipTop.system.subsystem_l2_wrapper.l2.mods_0.bankedStore.cc_banks_0.cc_banks_0_ext"
+    ]
+  },
+  {
+    "module_name": "data_arrays_0_ext",
+    "depth": 256,
+    "width": 256,
+    "masked": true,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "mask_granularity": 8,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.dcache.data.data_arrays_1.data_arrays_0_ext",
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.dcache.data.data_arrays_0.data_arrays_0_ext"
+    ]
+  },
+  {
+    "module_name": "tag_array_ext",
+    "depth": 64,
+    "width": 88,
+    "masked": true,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "mask_granularity": 22,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.dcache.tag_array.tag_array_ext"
+    ]
+  },
+  {
+    "module_name": "mem_ext",
+    "depth": 4096,
+    "width": 128,
+    "masked": true,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "mask_granularity": 8,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.gemmini.spad.spad_mems_3.mem.mem_ext",
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.gemmini.spad.spad_mems_2.mem.mem_ext",
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.gemmini.spad.spad_mems_1.mem.mem_ext",
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.gemmini.spad.spad_mems_0.mem.mem_ext"
+    ]
+  },
+  {
+    "module_name": "mem_0_ext",
+    "depth": 512,
+    "width": 512,
+    "masked": true,
+    "read": true,
+    "write": true,
+    "readwrite": false,
+    "mask_granularity": 8,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.gemmini.spad.acc_mems_1.mem.mem.mem_0_ext",
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.gemmini.spad.acc_mems_0.mem.mem.mem_0_ext"
+    ]
+  },
+  {
+    "module_name": "tag_array_0_ext",
+    "depth": 64,
+    "width": 84,
+    "masked": true,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "mask_granularity": 21,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.frontend.icache.tag_array.tag_array_0_ext"
+    ]
+  },
+  {
+    "module_name": "data_arrays_0_0_ext",
+    "depth": 256,
+    "width": 128,
+    "masked": true,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "mask_granularity": 32,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.frontend.icache.data_arrays_3.data_arrays_0_0_ext",
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.frontend.icache.data_arrays_2.data_arrays_0_0_ext",
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.frontend.icache.data_arrays_1.data_arrays_0_0_ext",
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.frontend.icache.data_arrays_0.data_arrays_0_0_ext"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "module_name": "mem_1_ext",
+    "depth": 512,
+    "width": 64,
+    "masked": true,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "mask_granularity": 8,
+    "extra_ports": [],
+    "hierarchy": [
+      "TestHarness.ram.srams.mem.mem_1_ext"
+    ]
+  }
+]
